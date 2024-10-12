@@ -1,0 +1,209 @@
+
+/* Fondo de la página y contenedor de los botones */
+body {
+    background-image: url("https://virtualbackgrounds.site/wp-content/uploads/2021/02/womens-clothing-store.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el contenido ocupe al menos la altura de la ventana */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 2%;
+    border-bottom: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+header:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    width: 100%;
+    height: 3em;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+    border-radius: 50px;
+}
+
+.nav-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 7%;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2% 4%;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    gap: 20%;
+}
+
+.icon-container a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.icon-container a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#unico {
+    color: rgb(0, 255, 0);
+}
+
+.menu ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu a {
+    display: block;
+    padding: 2% 4%;
+    color: #333;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.menu ul li a:hover {
+    background-color: transparent;
+    color: #ebe9e9;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 5%;
+}
+
+.boton {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    padding: 1% 2%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 2%;
+    cursor: pointer;
+    width: 10%;
+    text-decoration: none;
+}
+
+.boton:hover {
+    border: 2px solid #fff;
+    background-color: white;
+    color: black;
+}
+
+footer {
+    background-color: #f5f5f5;
+    margin-top: auto;
+    border-top: 1px solid #ccc;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 3%;
+}
+
+.footer-section h4 {
+    color: #333;
+    /* margin-bottom: 4%; */
+}
+
+.footer-section p {
+    color: #666;
+    margin: 2% 0;
+}
+
+.footer-section a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-section i {
+    margin-right: 2%;
+}
+
+.footer-section p a:hover {
+    color: #000;
+}
+
+.footer-section h4 {
+    font-weight: bold;
+    margin-bottom: 5%;
+    color: #333;
+}
+
+.footer-section p i {
+    color: #333;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: #333;
+    margin-right: 2%;
+    text-decoration: none;
+}
